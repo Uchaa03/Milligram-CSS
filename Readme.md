@@ -203,7 +203,7 @@ como queramos.
 En base, a la propiedad que se le agrega al `column` ocupa un espacio normal o anterior junto con el tamaño, combinando
 el uso en bloques de `row` y `column` para la alineación de los elementos.
 
-**! Os dejé un index html donde se aprecia el resultado de la aplicación de estas técnicas.**
+**! Os dejé un [index.html](index.html) donde se aprecia el resultado de la aplicación de estas técnicas.**
 
 ### Conclusión 
 Para mí, es un framework bastante básico que tiene muy poco contenido, ya que hay otros mucho más potentes, aunque si
