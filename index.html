@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Milligram CSS</title>
+    <link rel="stylesheet" href="node_modules/milligram/dist/milligram.min.css">
+</head>
+<body>
+  <br>
+  <section>
+    <h2>Tipografías y tamaños</h2>
+    <p>Tamaño base de 1.6rem (16px) linea ancha de (24px)</p>
+    <a>Enlaces</a>
+    <em>Cursiva</em>
+    <small>Pequeño</small>
+    <strong>Ancho</strong>
+    <u>Subrayado</u>
+    <h1>Title</h1>
+    <h2>Title</h2>
+    <h3>Title</h3>
+    <h4>Title</h4>
+    <h5>Title</h5>
+    <h6>Title</h6>
+  </section>
+  <hr>
+  <section>
+    <h2>Blockquotes</h2>
+    <blockquote>
+      <p><em>Yeah!! Milligram molaaaaaaa!!.</em></p>
+    </blockquote>
+  </section>
+  <hr>
+  <section>
+    <h2>Botones</h2>
+    <a class="button" href="#">Default Button</a>
+    <button class="button button-outline">Outlined Button</button>
+    <input class="button button-clear" type="submit" value="Clear Button">
+  </section>
+  <hr>
+  <hr>
+  <section>
+    <h2>Listas</h2>
+    <ul>
+      <li>Lista desordenada item 1</li>
+      <li>Lista desordenada item 2</li>
+    </ul>
+    <ol>
+      <li>Lista Ordenada item 1</li>
+      <li>Lista Ordenada item 2</li>
+    </ol>
+    <dl>
+      <dt>Lista descriptiva item 1</dt>
+      <dd>Lista descriptiva item 1.1</dd>
+    </dl>
+  </section>
+  <hr>
+  <hr>
+  <section>
+    <h2>Formularios</h2>
+    <form>
+      <fieldset>
+        <label for="nameField">Name</label>
+        <input type="text" placeholder="Adrii Ucha" id="nameField">
+        <label for="ageRangeField">Age Range</label>
+        <select id="ageRangeField">
+          <option value="0-13">0-13</option>
+          <option value="14-17">14-17</option>
+          <option value="18-23">18-23</option>
+          <option value="24+">24+</option>
+        </select>
+        <label for="commentField">Comment</label>
+        <textarea placeholder="Hi Adrii …" id="commentField"></textarea>
+        <div class="float-right">
+          <input type="checkbox" id="confirmField">
+          <label class="label-inline" for="confirmField">Send a copy to yourself</label>
+        </div>
+        <input class="button-primary" type="submit" value="Send">
+      </fieldset>
+    </form>
+  </section>
+  <hr>
+  <hr>
+  <section>
+    <h2>Tablas</h2>
+    <table>
+      <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Altura</th>
+        <th>Localización</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Stephen Curry</td>
+        <td>27</td>
+        <td>1,91</td>
+        <td>Akron, OH</td>
+      </tr>
+      <tr>
+        <td>Klay Thompson</td>
+        <td>25</td>
+        <td>2,01</td>
+        <td>Los Angeles, CA</td>
+      </tr>
+      </tbody>
+    </table>
+  </section>
+  <hr>
+  <hr>
+  <section>
+    <h2>Grids</h2>
+    <div class="container">
+      <div class="row">
+        <div class="column button button-outline">.column</div>
+        <div class="column button button-outline">.column</div>
+        <div class="column button button-outline">.column</div>
+        <div class="column button button-outline">.column</div>
+      </div>
+      <div class="row">
+        <div class="column button button-outline">.column</div>
+        <div class="column column-50 column-offset-25 button button-outline">.column column-50 column-offset-25</div>
+      </div>
+    </div>
+  </section>
+  <hr>
+</body>
+</html>
